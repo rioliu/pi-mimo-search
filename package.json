@@ -1,6 +1,6 @@
 {
   "name": "pi-mimo-search",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web search tool for Pi backed by the Xiaomi MiMo Web Search plugin (pay-as-you-go), with structured citations and per-call cost reporting.",
   "keywords": [
     "pi-package",
