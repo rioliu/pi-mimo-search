@@ -1,0 +1,31 @@
+{
+  "name": "pi-mimo-search",
+  "version": "0.1.0",
+  "description": "Web search tool for Pi backed by the Xiaomi MiMo Web Search plugin (pay-as-you-go), with structured citations and per-call cost reporting.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "web-search",
+    "mimo",
+    "xiaomi"
+  ],
+  "license": "MIT",
+  "repository": "git+https://github.com/rioliu/pi-mimo-search.git",
+  "homepage": "https://github.com/rioliu/pi-mimo-search#readme",
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node test/search.test.ts"
+  },
+  "files": [
+    "extensions"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
